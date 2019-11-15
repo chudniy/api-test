@@ -33,6 +33,8 @@ class Invitation implements \JsonSerializable
     private $title;
 
     /**
+     * @var string
+     *
      * @ORM\Column(type="string", length=255)
      */
     private $status;

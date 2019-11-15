@@ -129,7 +129,7 @@ class InvitationController extends Controller
             ]
         ], Response::HTTP_OK);
     }
-    
+
     /**
      * @Route("/{id}/{status}", name="api_invitation_status", requirements={"id": "\d+", "status": "allow|decline" }, methods={"PATCH"})
      * @param Invitation $invitation
